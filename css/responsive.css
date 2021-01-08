@@ -1,0 +1,232 @@
+
+/*For Mobile device*/
+
+@media (min-width: 320px) and (max-width: 480px){
+	/*Media quere Start*/
+	/*header-section start*/
+.header-section{
+	background: red;
+}
+.navbar-light .navbar-toggler {
+    margin: 0px 22px;
+    background: yellow;
+}
+.header-section .icon .fa {
+    padding: 24px 36px;
+}
+.header-section .banner-section h2 {
+    padding: 2px 0px;
+    font-size: 25px;
+}
+.header-section .banner-section .btn {
+    padding: 10px 20px;
+}
+.header-section .banner-section .phone {
+    position: relative;
+    margin: 30px 0px;
+}
+/*header-section End*/
+
+/*.Features-section start*/
+.Features {
+    width: 100%;
+    background: #587e0d;
+    text-align: center;
+}
+.Features .title h2 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #648cff;
+}
+.Features .title p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+.Features .icon {
+    width: 100%;
+    padding: 8px 0px;
+    text-align: left;
+}
+.Features .clouds {
+    width: 100%;
+    padding: 10px 0px;
+}
+.Features .clouds .icone {
+    text-align: left;
+    padding: 28px 0px 0px;
+}
+/*.Features-section end*/
+.footer-section .navbar-light .navbar-nav .nav-link {
+    padding: 7px 50px;
+    color: #9596ab;
+}
+.footer-section .icon .fa {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b5b5c8;
+    padding: 0px 20px;
+}
+
+   /*Media quere End*/
+}
+
+/*For Teblet device*/
+
+@media (min-width: 481px) and (max-width: 767px){
+   /*Media quere Start*/
+   /*header-section start*/
+.header-section{
+	background: #587e0d;
+}
+.navbar-light .navbar-toggler {
+    margin: 0px 22px;
+    background: yellow;
+}
+.header-section .icon .fa {
+    padding: 24px 36px;
+}
+
+.header-section .banner-section h2 {
+    padding: 2px 0px;
+    font-size: 38px;
+}
+.header-section .banner-section .btn {
+    padding: 10px 20px;
+}
+.banner-section .phone {
+    position: relative;
+    margin: 30px;
+}
+/*header-section end*/
+
+/*Features-section start*/
+.Features {
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+.Features .title h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #648cff;
+}
+.Features .title p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999999;
+}
+.Features .icon {
+    width: 100%;
+    padding: 8px 0px;
+    text-align: left;
+}
+.Features .clouds {
+    width: 100%;
+    padding: 10px 0px;
+}
+.Features .clouds .icone {
+    text-align: left;
+    padding: 28px 0px 0px;
+}
+/*Features-section end*/
+.footer-section .navbar-light .navbar-nav .nav-link {
+    padding: 7px 50px;
+    color: #9596ab;
+}
+.footer-section .icon .fa {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b5b5c8;
+    padding: 0px 20px;
+}
+
+
+   /*Media quere End*/
+}
+
+/*For Ipad device*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+   /*Media quere Start*/
+   /*header-section start*/
+.header-section{
+	background: #7e400d;
+}
+.navbar-light .navbar-toggler {
+    margin: 0px 22px;
+    background: yellow;
+}
+.header-section .icon .fa {
+    padding: 24px 36px;
+}
+
+.header-section .banner-section h2 {
+    padding: 2px 0px;
+    font-size: 38px;
+}
+.header-section .banner-section .btn {
+    padding: 10px 20px;
+}
+.banner-section .phone {
+    position: relative;
+    margin: 30px;
+}
+
+/*header-section end*/
+/*Features-section start*/
+.Features{
+    width: 100%;
+    background: #587e0d;
+    text-align: center;
+}
+.Features .title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #648cff;
+}
+.Features .title p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999999;
+}
+.Features .icon {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: left;
+}
+.Features .icon .fa span {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 10px;
+    color: #353854;
+}
+.Features .clouds {
+    width: 100%;
+    padding: 80px 0px;
+}
+.Features .clouds .icone {
+    text-align: left;
+    padding: 100px 0px 0px;
+}
+/*Features-section end*/
+.footer-section .navbar-light .navbar-nav .nav-link {
+    padding: 10px 60px;
+    color: #9596ab;
+}
+.footer-section .icon .fa {
+    font-size: 30px;
+    font-weight: 600;
+    color: #b5b5c8;
+    padding: 5px 20px;
+}
+
+   /*Media quere End*/
+}

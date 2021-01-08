@@ -1,0 +1,214 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Ubuntu', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section start*/
+.header-section {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    background: url(../img/banner.png) center top no-repeat;
+    background-size: cover;
+}
+.header-section .bg-light {
+    background-color:transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active {
+    color:#e1e1e1;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0px 50px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #e1e1e1;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0px 50px;
+    transition: 1s;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #fff;
+}
+.header-section .icon .fa {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0px 25px;
+}
+.header-section .banner-section{
+	width: 100%;
+}
+.header-section .banner-section h2 {
+    padding: 120px 0px 0px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.header-section .banner-section p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #dfe6ff;
+    margin: 15px 0px 0px;
+}
+.header-section .banner-section .btn {
+    padding: 8px 33px;
+    margin: 26px 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #4466c9;
+    border: 1px solid #4466c9;
+    transition: 1s;
+}
+.header-section .banner-section .btn:hover, .header-section .banner-section .btn:focus{
+color: #fff;
+background: #fc6a42;
+border: 1px solid #fc6a42;	
+}
+.banner-section .phone {
+    position: relative;
+    margin: 80px 0px;
+}
+.banner-section .ball {
+    position: absolute;
+    margin: -563px -120px;
+}
+.banner-section .mar {
+    margin: 24px -65px;
+}
+/*header-section end*/
+/*Features-section start*/
+.Features {
+    width: 100%;
+    background: url(../img/bg.png)center top no-repeat;
+    text-align: center;
+}
+.Features .title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #648cff;
+}
+.Features .title p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999999;
+}
+.Features .icon {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: left;
+}
+.Features .icon .fa {
+    font-size: 48px;
+    color: #fc6a42;
+}
+.Features .icon .fa span {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px;
+    color: #353854;
+}
+.Features .icon p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 60px;
+    line-height: 24px;
+    color: #c4c4c4;
+}
+
+.Features .clouds {
+    width: 100%;
+    padding: 80px 0px;
+}
+.Features .clouds img {
+    padding: 42px 0px;
+}
+.Features .clouds .icone {
+    text-align: left;
+    padding: 100px 0px 0px;
+}
+.Features .icone .title h2 {
+    text-align: left;
+    padding: 6px 0px;
+}
+.Features .clouds img {
+    padding: 16px 0px;
+}
+
+.people .icon h4 {
+    padding: 20px 0px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #353854;
+}
+.people .icon p {
+    margin: 0px;
+}
+.people .icon p img {
+    margin-left: 62%;
+}
+
+
+.Features .about-us img{
+width: 100%;
+}
+/*Features-section end*/
+
+/*footer-section start*/
+.footer-section{
+ width:100%; 
+ background: url(../img/fbg.png)center top no-repeat;
+}
+.footer-section .bg-light {
+    background-color:transparent !important;
+}
+.footer-section .navbar-light .navbar-brand {
+    color: #fc6a42;
+}
+.footer-section .navbar-light .navbar-brand span{
+    color: #648cff;
+}
+.footer-section .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+.footer-section .navbar-light .navbar-nav .nav-link {
+    padding: 22px 60px;
+    color: #9596ab;
+}
+.footer-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #fff;
+}
+.footer-section .icon .fa {
+    font-size: 30px;
+    font-weight: 600;
+    color: #b5b5c8;
+    padding: 0px 25px;
+}
+
+.footer-section .divider {
+    width: 90%;
+    height: 2px;
+    background: #434769;
+}
+.footer-section .main-footer {
+    text-align: right;
+    margin-right: 20%;
+    padding: 20px 0px;
+}
+/*footer-section*/
